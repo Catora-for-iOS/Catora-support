@@ -10,7 +10,7 @@ Catora is a personal budgeting app designed to help you assign income to categor
 
 If you have a problem with the app, a question about how something works, or would like to report a bug, please contact:
 
-**Email:** [YOUR SUPPORT EMAIL]
+**Email:** andymoore@me.com
 
 When reporting a problem, it can help to include:
 
