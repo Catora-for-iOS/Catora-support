@@ -75,4 +75,4 @@ Any updated version will be published on this page with a revised "Last updated"
 
 If you have questions about this Privacy Policy or Catora's privacy practices, contact:
 
-**Email:** andymoore@me.com
+**Email:** catora.support@gmail.com
