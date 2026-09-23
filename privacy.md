@@ -1,6 +1,6 @@
 # Catora Privacy Policy
 
-**Last updated:** 27 August 2026
+**Last updated:** 23 September 2026
 
 This Privacy Policy explains how **Catora — Simple Monthly Budgeting** handles your information.
 
@@ -10,42 +10,48 @@ Catora is designed to keep your budgeting information on your device.
 
 Information you enter into the app may include:
 
-- Budget categories and monthly budget amounts
+- Budget categories, monthly assignments and transfers between categories
 - Transactions
 - Income
 - Repeating transactions
-- Notes associated with your financial records
+- Payees, income sources and notes associated with your financial records
 - App appearance and preference settings
 
 This information is used only to provide the budgeting features of the app.
 
 ## Data Collection
 
-Catora does not collect, transmit, sell, or share your personal or financial information with the developer.
+Catora does not send your personal or financial information to the developer or a developer-operated server.
 
 The app does not use advertising or tracking technologies.
 
 The app does not use your information for marketing or advertising purposes.
 
+## Local Storage and Recovery Copies
+
+Catora stores its active budget in the app's local storage. To help recover safely from interrupted changes or an unreadable file, Catora may also keep a previous local snapshot or preserve an unreadable local copy.
+
+Using Reset replaces the active budget with either an empty starter budget or sample data. A local recovery copy may remain, so Reset is not a guarantee that every local copy has been deleted. Separately saved backup files also remain until you delete them from the location where you saved them.
+
 ## Backups
 
-Catora includes a **Save Backup** feature.
+Catora includes a **Create Backup** feature.
 
-A backup is only created or shared when you choose to do so. You control where the backup file is stored or shared using the options provided by iOS.
+A backup is only created or shared when you choose to do so. You control where it is stored using the file options provided by iOS, iPadOS or macOS. This may include local storage, iCloud or another storage provider available on your device.
 
 The developer does not automatically receive copies of your backups.
 
-When you use **Restore Backup**, the app reads the backup file that you have chosen and uses it to restore your budgeting information.
+When you use **Choose Backup**, the app reads the file you select, lets you review its contents, and only restores it after you confirm **Restore Backup**.
 
 You are responsible for keeping any backup files you create secure.
 
-## Face ID, Touch ID and Device Authentication
+## Device Authentication
 
-If you enable Catora's device authentication feature, authentication is performed by iOS using Apple's security services.
+If App Lock is enabled, Apple's system authentication handles access using available biometrics or the device passcode.
 
 Catora does not receive or store your fingerprint, facial recognition data, device passcode, or other biometric information.
 
-The app only receives confirmation from iOS that authentication succeeded or failed.
+The app only receives confirmation that authentication succeeded or failed.
 
 ## Internet Access
 

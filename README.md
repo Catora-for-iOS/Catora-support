@@ -1,2 +1,3 @@
-# Catora-support
-Catora for iOS -  Simple Monthly Budgeting
+# Catora Support
+
+Support and privacy pages for Catora on iPhone, iPad and Mac.
