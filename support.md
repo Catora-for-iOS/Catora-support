@@ -51,9 +51,10 @@ If App Lock is enabled, Catora uses Apple's system authentication, which may use
 
 Authentication is handled by the operating system. Catora receives only whether it succeeded or failed and does not receive or store biometric data or the device passcode.
 
-## Privacy
+## Help and Information
 
-Read the [Catora Privacy Policy](privacy).
+- Read the [Catora User Guide](guide) for a complete explanation of every tab and tool.
+- Read the [Catora Privacy Policy](privacy).
 
 ## About Catora
 

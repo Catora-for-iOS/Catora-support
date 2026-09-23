@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A complete guide to Catora's Overview, Transactions, Categories and Income tabs, including backups, repeating transactions and settings.">
+<title>Catora User Guide</title>
+
+<style>
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 40px 24px 64px;
+  line-height: 1.65;
+  background: #f7f8fa;
+  color: #1c1c1e;
+}
+main {
+  background: white;
+  padding: 36px;
+  border-radius: 18px;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.08);
+}
+h1, h2, h3 { line-height: 1.25; scroll-margin-top: 20px; }
+h1 { margin: 0 0 8px; }
+h2 { margin-top: 44px; padding-top: 4px; border-top: 1px solid #e5e7eb; }
+h3 { margin-top: 28px; }
+a { color: #0a7f80; }
+li + li { margin-top: 7px; }
+.brand { font-weight: 700; font-size: 1.1rem; }
+.subtitle { color: #5f6368; margin: -4px 0 24px; }
+.intro { font-size: 1.08rem; }
+.toc, .callout, .tab-summary {
+  border: 1px solid #dce3e7;
+  border-radius: 14px;
+  padding: 18px 20px;
+  background: #f8fbfb;
+}
+.toc { margin: 26px 0; }
+.toc strong { display: block; margin-bottom: 8px; }
+.toc ul { columns: 2; margin: 0; padding-left: 20px; }
+.callout { border-left: 5px solid #0a7f80; margin: 20px 0; }
+.warning { border-left-color: #b5472f; background: #fff8f5; }
+.tab-summary { margin-top: 18px; }
+.tab-summary p:first-child { margin-top: 0; }
+.tab-summary p:last-child { margin-bottom: 0; }
+.steps { padding-left: 28px; }
+.steps li { padding-left: 8px; }
+.steps li::marker { color: #0a7f80; font-weight: 700; }
+footer { margin-top: 42px; font-size: 0.9rem; color: #6b7280; }
+@media (max-width: 640px) {
+  body { padding: 0; }
+  main { border-radius: 0; padding: 26px 20px 44px; box-shadow: none; }
+  .toc ul { columns: 1; }
+}
+@media (prefers-color-scheme: dark) {
+  body { background: #111418; color: #f2f2f7; }
+  main { background: #1c1f24; box-shadow: none; }
+  h2 { border-top-color: #343941; }
+  .subtitle, footer { color: #a1a1aa; }
+  a { color: #5fd1d2; }
+  .toc, .callout, .tab-summary { background: #20272b; border-color: #394248; }
+  .warning { background: #2a211f; }
+  .steps li::marker { color: #5fd1d2; }
+}
+</style>
+</head>
+<body>
+<main>
+<div class="brand">Catora</div>
+<p class="subtitle">Simple Monthly Budgeting</p>
+<h1>User Guide</h1>
+<p class="intro">Catora is a personal budgeting and record-keeping app for iPhone, iPad and Mac. It helps you record income, assign that money to categories, enter spending, plan future months, manage repeating payments and review spending trends. It does not connect to a bank or move real money.</p>
+
+<nav class="toc" aria-label="Guide contents">
+  <strong>In this guide</strong>
+  <ul>
+    <li><a href="#getting-started">Getting started</a></li>
+    <li><a href="#navigation">Moving around</a></li>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#transactions">Transactions</a></li>
+    <li><a href="#categories">Categories</a></li>
+    <li><a href="#income">Income</a></li>
+    <li><a href="#recovery">Budget recovery</a></li>
+    <li><a href="#privacy-support">Privacy and support</a></li>
+  </ul>
+</nav>
+
+<h2 id="getting-started">A simple way to get started</h2>
+<ol class="steps">
+  <li>Open <strong>Income</strong> and add a paycheck, deposit or other money received.</li>
+  <li>Open <strong>Categories</strong> and assign the available money to the things you plan to spend it on.</li>
+  <li>Open <strong>Transactions</strong> whenever you spend money.</li>
+  <li>Check <strong>Overview</strong> to see what remains, spot overspending and review upcoming repeating payments.</li>
+  <li>Use <strong>Create Backup</strong> from Overview after important changes.</li>
+</ol>
+
+<h2 id="navigation">Moving around Catora</h2>
+<p>Catora has four main areas: <strong>Overview</strong>, <strong>Transactions</strong>, <strong>Categories</strong> and <strong>Income</strong>. iPhone shows them in a tab bar. iPad and Mac use a sidebar when there is enough space. On Mac, Command-1 through Command-4 also switch between them.</p>
+<p>The month control appears near the top of each area. Use its arrows to move backward or forward by one month. The selected month is shared across the app, so changing it on one tab changes it everywhere.</p>
+<div class="callout"><strong>Currency:</strong> symbols and number formatting follow the device's region settings. Changing region changes how saved amounts are displayed; it does not convert them into another currency.</div>
+
+<h2 id="overview">Overview</h2>
+<div class="tab-summary"><p><strong>What it is:</strong> the dashboard for the selected month.</p><p><strong>Use it for:</strong> understanding the budget, spotting problems, checking repeating payments, viewing trends, changing settings and managing backups.</p></div>
+
+<h3>Summary figures</h3>
+<ul>
+  <li><strong>Left to Spend from Budget</strong> is the money currently available across categories, including balances carried forward from earlier months.</li>
+  <li><strong>Left in Account</strong> is all income received through the selected month minus all spending through that month.</li>
+  <li><strong>Assigned this month</strong>, <strong>Spent this month</strong> and <strong>Income this month</strong> show activity within the selected month.</li>
+  <li><strong>Ready to Assign</strong> is recorded income that has not yet been assigned to categories. For the current and future months it also reserves assignments already planned in later months.</li>
+  <li><strong>Overspent Categories</strong> appears when a category's available amount is below zero. Select a listed category to edit it or move money into it.</li>
+</ul>
+
+<h3>Repeating Left to Pay</h3>
+<p>This card totals active repeating payments still due after today in the selected month. Select it to open <strong>Repeating Transactions</strong> on the Transactions tab. A historical month has no upcoming payments.</p>
+
+<h3>Spending Trends</h3>
+<p>Select the <strong>Spending Trends</strong> card to open a larger chart.</p>
+<ul>
+  <li>Choose <strong>6 Months</strong> or <strong>12 Months</strong>.</li>
+  <li>Choose all categories or one category, including an archived category.</li>
+  <li>Select a bar to inspect a month's spending.</li>
+  <li>Trends use actual transactions only. Category assignments and transfers are not spending and are not included.</li>
+</ul>
+
+<h3>Overview actions and settings</h3>
+<p>On iPhone and iPad, open the ellipsis menu. On Mac, <strong>Backup</strong>, <strong>Settings</strong> and <strong>Reset</strong> are separate toolbar menus.</p>
+<ul>
+  <li><strong>Require Device Authentication</strong> turns App Lock on or off. Apple system authentication may use Face ID, Touch ID or the device passcode. Catora receives only whether authentication succeeded or failed.</li>
+  <li><strong>Appearance</strong> changes the color theme and heading style.</li>
+  <li><strong>Privacy &amp; About</strong> shows the app version and build, privacy information, support links and important data-handling notes.</li>
+</ul>
+
+<h3>Backups</h3>
+<p>Open <strong>Manage Backups</strong> from Overview.</p>
+<ul>
+  <li><strong>Create Backup</strong> saves a portable JSON copy of categories, assignments, transfers, transactions, income and repeating-transaction rules to a location you choose.</li>
+  <li><strong>Choose Backup</strong> opens a saved backup. Catora validates it and shows record counts before anything is replaced.</li>
+  <li><strong>Restore Backup</strong> replaces the active budget only after confirmation. The previous active budget is kept as a local automatic recovery snapshot.</li>
+  <li>Keep separately saved backup files secure. They remain in their saved location until you delete them there.</li>
+</ul>
+
+<h3>Reset</h3>
+<div class="callout warning"><strong>Reset is destructive and asks for confirmation.</strong></div>
+<ul>
+  <li><strong>Start Fresh</strong> replaces the active budget with Catora's normal starter categories and no money assigned.</li>
+  <li><strong>Start Again with Sample Data</strong> replaces it with a small example budget to explore.</li>
+  <li>Appearance and App Lock settings remain unchanged.</li>
+  <li>A local recovery copy and separately saved backups may remain, so Reset is not a guarantee that every copy has been deleted.</li>
+</ul>
+
+<h2 id="transactions">Transactions</h2>
+<div class="tab-summary"><p><strong>What it is:</strong> the record of money spent during the selected month.</p><p><strong>Use it for:</strong> adding, finding, editing and deleting spending and managing repeating payments.</p></div>
+
+<h3>Find and filter transactions</h3>
+<ul>
+  <li>Type in <strong>Search transactions</strong> to search payee, note, category, amount or date.</li>
+  <li>Use the category filter to show one active or archived category.</li>
+  <li>Use <strong>Clear Search</strong>, <strong>Clear Filters</strong> or <strong>Clear All Filters</strong> to return to the full list.</li>
+</ul>
+
+<h3>Add or edit a transaction</h3>
+<p>Select <strong>New Transaction</strong> and complete:</p>
+<ul>
+  <li><strong>Payee</strong> — entering a previous payee may show suggestions and preselect its most recently used active category.</li>
+  <li><strong>Amount</strong> — enter the positive amount spent.</li>
+  <li><strong>Category</strong> — a transaction needs an active category. If there are none, add one on Categories first.</li>
+  <li><strong>Date</strong> — determines which month and day contains the transaction.</li>
+  <li><strong>Note</strong> — optional extra detail.</li>
+  <li><strong>Repeats</strong> — optionally create a weekly, every-two-weeks, monthly or yearly series beginning with this transaction.</li>
+</ul>
+<p>Select an existing transaction to edit or delete it. Deleting updates the category balance and cannot be undone. Editing a transaction already created by a repeating series changes that occurrence only.</p>
+
+<h3>Repeating Transactions</h3>
+<p>Open the repeat icon in the Transactions toolbar. The list is ordered by the next due date.</p>
+<ul>
+  <li>Select a series to edit its payee, amount, category, frequency, due day, note and <strong>Active</strong> status.</li>
+  <li>Turn <strong>Active</strong> off to pause future generation. Resuming creates missed occurrences from the last recorded date using the saved rule.</li>
+  <li>Monthly and yearly schedules set to a day that a month does not have use that month's final day.</li>
+  <li>Delete a series to stop future occurrences. Transactions already generated remain in history.</li>
+</ul>
+
+<h2 id="categories">Categories</h2>
+<div class="tab-summary"><p><strong>What it is:</strong> where recorded income becomes a spending plan.</p><p><strong>Use it for:</strong> assigning money, checking category balances, moving money, reordering and archiving categories, and copying a previous plan.</p></div>
+
+<h3>Budget summary</h3>
+<ul>
+  <li><strong>Left to Budget</strong> is the selected month's Ready to Assign amount.</li>
+  <li><strong>Assigned this month</strong> is the total assigned across categories for that month.</li>
+</ul>
+
+<h3>Category Actions</h3>
+<p>Open the plus or <strong>Category Actions</strong> menu.</p>
+<ul>
+  <li><strong>Add Category</strong> creates a category and optionally assigns money for the selected month.</li>
+  <li><strong>Move Money Between Categories</strong> moves an amount without changing income or spending.</li>
+  <li><strong>Copy Previous Month's Budget</strong> replaces the selected month's category assignments with the previous month's assignments. If the selected month already has assignments, Catora asks for confirmation first.</li>
+</ul>
+
+<h3>Work with category cards</h3>
+<ul>
+  <li>Select a card to edit its name and selected-month assignment and to see carried forward, spent and available totals.</li>
+  <li>Drag one active card onto another to reorder it. On touch devices, touch and hold before dragging.</li>
+  <li>From the editor, move money to or from the category.</li>
+  <li>Archive a category when it is no longer used. Historical transactions and assignments remain attached, but the category is unavailable for new spending or assignments. Catora may require a deficit to be resolved before archiving.</li>
+  <li>Unarchive a category to use it again.</li>
+  <li>A category can be permanently deleted only when it has no history that must be preserved.</li>
+</ul>
+
+<h3>Move Money</h3>
+<ul>
+  <li>Choose <strong>Ready to Assign</strong> or an eligible category as the source.</li>
+  <li>Choose an active category as the destination.</li>
+  <li>Enter an amount, or use the quick minus/plus 1 and 10 controls.</li>
+  <li>Review the projected balances under <strong>After Moving</strong>, then select <strong>Move</strong>.</li>
+  <li>Catora will not move more than the source currently has available.</li>
+</ul>
+
+<h2 id="income">Income</h2>
+<div class="tab-summary"><p><strong>What it is:</strong> the record of money received during the selected month.</p><p><strong>Use it for:</strong> adding, editing and deleting paychecks, deposits and other income.</p></div>
+
+<h3>Add or edit income</h3>
+<p>Select <strong>New Income</strong> and enter:</p>
+<ul>
+  <li><strong>Source</strong> — for example salary, freelance work or a gift.</li>
+  <li><strong>Amount</strong> — the positive amount received.</li>
+  <li><strong>Date</strong> — determines the month and day of the entry.</li>
+  <li><strong>Note</strong> — optional extra detail.</li>
+</ul>
+<p>Select an existing entry to edit or delete it. Deleting income updates the budget totals and cannot be undone.</p>
+
+<h2 id="recovery">If Catora cannot open its saved budget</h2>
+<p>Catora preserves the existing files and shows <strong>Budget Recovery</strong> instead of silently replacing them. You can choose a valid backup to restore or explicitly start fresh. When restoring over an unreadable budget, the unreadable file is preserved separately.</p>
+
+<h2 id="privacy-support">Privacy and support</h2>
+<p>Catora keeps its active financial data and automatic recovery copies in the app's local storage and does not send that data to a developer server. Files created with <strong>Create Backup</strong> go only to the location you choose.</p>
+<ul>
+  <li>Read the <a href="privacy.html">Privacy Policy</a>.</li>
+  <li>Visit <a href="support.html">Catora Support</a> or email <a href="mailto:Catora.support@gmail.com">Catora.support@gmail.com</a>.</li>
+  <li>Return to the <a href="index.html">Catora home page</a>.</li>
+</ul>
+
+<footer>© 2026 Catora</footer>
+</main>
+</body>
+</html>

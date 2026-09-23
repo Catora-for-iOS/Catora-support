@@ -8,5 +8,6 @@ It is designed to help you plan your monthly budget, assign and move money betwe
 
 ## Links
 
+- [User Guide](guide)
 - [Privacy Policy](privacy)
 - [Support](support)
