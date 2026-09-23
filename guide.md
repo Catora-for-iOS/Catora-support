@@ -58,8 +58,9 @@ On iPhone and iPad, open the ellipsis menu. On Mac, **Backup**, **Settings** and
 Open **Manage Backups** from Overview.
 
 - **Create Backup** saves a portable JSON copy of categories, assignments, transfers, transactions, income and repeating-transaction rules to a location you choose.
-- **Choose Backup** opens a saved backup. Catora validates it and shows record counts before anything is replaced.
-- **Restore Backup** replaces the active budget only after confirmation. The previous active budget is kept as a local automatic recovery snapshot.
+- **Restore a Backup** is a two-step process:
+  1. Select **Choose Backup** to open a saved backup. Catora validates it and shows its filename and record counts.
+  2. Review the selected file, then confirm **Restore Backup**. Only then does it replace the active budget. The previous active budget is kept as a local automatic recovery snapshot.
 - Keep separately saved backup files secure. They remain in their saved location until you delete them there.
 
 ### Reset

@@ -29,7 +29,7 @@ Use **Create Backup** within Catora to save your budgeting data to a file locati
 
 Keep important backup files somewhere safe.
 
-Use **Choose Backup** to select and review a previously saved file, then confirm **Restore Backup** to use it.
+**Restore a Backup** is a two-step process: first use **Choose Backup** to select and review a previously saved file, then confirm **Restore Backup** to use it.
 
 Restoring replaces the active budget after confirmation. Catora validates the selected file first and keeps the previous active budget as a local automatic recovery snapshot.
 

@@ -41,7 +41,7 @@ A backup is only created or shared when you choose to do so. You control where i
 
 The developer does not automatically receive copies of your backups.
 
-When you use **Choose Backup**, the app reads the file you select, lets you review its contents, and only restores it after you confirm **Restore Backup**.
+To **Restore a Backup**, first use **Choose Backup**. The app reads only the file you select, lets you review its contents, and restores it only after you confirm **Restore Backup**.
 
 You are responsible for keeping any backup files you create secure.
 

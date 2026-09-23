@@ -140,8 +140,12 @@ footer { margin-top: 42px; font-size: 0.9rem; color: #6b7280; }
 <p>Open <strong>Manage Backups</strong> from Overview.</p>
 <ul>
   <li><strong>Create Backup</strong> saves a portable JSON copy of categories, assignments, transfers, transactions, income and repeating-transaction rules to a location you choose.</li>
-  <li><strong>Choose Backup</strong> opens a saved backup. Catora validates it and shows record counts before anything is replaced.</li>
-  <li><strong>Restore Backup</strong> replaces the active budget only after confirmation. The previous active budget is kept as a local automatic recovery snapshot.</li>
+  <li><strong>Restore a Backup</strong> is a two-step process:
+    <ol>
+      <li>Select <strong>Choose Backup</strong> to open a saved backup. Catora validates it and shows its filename and record counts.</li>
+      <li>Review the selected file, then confirm <strong>Restore Backup</strong>. Only then does it replace the active budget. The previous active budget is kept as a local automatic recovery snapshot.</li>
+    </ol>
+  </li>
   <li>Keep separately saved backup files secure. They remain in their saved location until you delete them there.</li>
 </ul>
 
