@@ -1,6 +1,6 @@
 # Catora Privacy Policy
 
-**Last updated:** 5 October 2026
+**Last updated:** 13 October 2026
 
 This Privacy Policy explains how **Catora — Simple Monthly Budgeting** handles your information.
 
@@ -11,6 +11,7 @@ Catora is designed to keep your budgeting information on your device. It does no
 Information you enter into the app may include:
 
 - Budget categories, monthly assignments and transfers between categories
+- Savings goals, target amounts and optional target months
 - Transactions
 - Income
 - Repeating transactions
@@ -37,7 +38,7 @@ Reset replaces the active budget with either an empty starter budget or sample d
 
 On iPhone and iPad, open the **Overview** ellipsis menu, choose **Manage Data…** under **Data**, then **Backups** and **Create Backup**. On Mac, choose **File ▸ Back Up…**.
 
-A portable backup is only exported or shared when you choose to do so. You control where it is stored using the file options provided by iOS, iPadOS or macOS. This may include local storage, iCloud or another storage provider available on your device.
+A portable backup is only exported or shared when you choose to do so. You control where it is stored using the file options provided by iOS, iPadOS or macOS. This may include local storage, iCloud or another storage provider available on your device. The JSON backup includes goals and their targets as part of the budget.
 
 The developer does not automatically receive copies of your backups.
 
@@ -49,7 +50,7 @@ You are responsible for keeping any backup files you create secure.
 
 Catora can import and export transactions and income as CSV files. It reads or writes only files you select and does not upload their contents to the developer or a developer-operated server. Your chosen storage provider may store or sync those files according to its own settings and privacy practices.
 
-CSV files may contain dates, payees or income sources, categories, amounts and notes, including sensitive financial information. Before importing, Catora lets you review rows, resolve category choices and choose whether to include possible duplicates. Approved rows are appended to the existing budget. CSV does not include monthly assignments, transfers, repeating-transaction rules, category order or archive state, or app settings; use JSON backups for a complete restorable budget copy.
+CSV files may contain dates, payees or income sources, categories, amounts and notes, including sensitive financial information. Before importing, Catora lets you review rows, resolve category choices and choose whether to include possible duplicates. Approved rows are appended to the existing budget. CSV does not include goals or their targets and target months, monthly assignments, transfers, repeating-transaction rules, category order or archive state, or app settings; use JSON backups for a complete restorable budget copy.
 
 Keep CSV exports secure and delete them from their saved location when no longer needed.
 
