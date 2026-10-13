@@ -2,9 +2,9 @@
 
 **Simple Monthly Budgeting for iPhone, iPad and Mac**
 
-**Last updated:** 5 October 2026
+**Last updated:** 13 October 2026
 
-Catora is a personal budgeting and record-keeping app. It helps you record income, assign that money to categories, enter spending, plan future months, manage repeating payments and review spending trends. It does not connect to a bank or move real money.
+Catora is a personal budgeting and record-keeping app. It helps you record income, assign that money to categories, enter spending, plan future months, set savings goals, manage repeating payments and review spending trends. It does not connect to a bank or move real money.
 
 ## A simple way to get started
 
@@ -12,13 +12,14 @@ Catora is a personal budgeting and record-keeping app. It helps you record incom
 2. Open **Categories** and assign the available money to the things you plan to spend it on.
 3. Open **Transactions** whenever you spend money.
 4. Check **Overview** to see what remains, spot overspending and review upcoming repeating payments.
-5. Create a JSON backup after important changes using the backup controls described below.
+5. Open **Goals** to set a savings target and move money toward it.
+6. Create a JSON backup after important changes using the backup controls described below.
 
 ## Moving around Catora
 
-Catora has four main areas: **Overview**, **Transactions**, **Categories** and **Income**. iPhone shows them in a tab bar. iPad and Mac use a sidebar when there is enough space. On Mac, Command-1 through Command-4 also switch between them.
+Catora has five main areas: **Overview**, **Transactions**, **Categories**, **Income** and **Goals**. iPhone shows them in a tab bar. iPad and Mac use a sidebar when there is enough space. On Mac, Command-1 through Command-5 also switch between them.
 
-The month control appears near the top of each area. Use its arrows to move backward or forward by one month. The selected month is shared across the app, so changing it on one tab changes it everywhere.
+The month control appears near the top of Overview, Transactions, Categories and Income. Use its arrows to move backward or forward by one month. The selected month is shared across the app, including the balances shown in Goals.
 
 Catora does not automatically sync the active budget between devices. To transfer a budget yourself, create a JSON backup and restore it on the other device after reviewing the replacement.
 
@@ -61,7 +62,7 @@ On iPhone and iPad, open the **Overview** ellipsis menu. **Manage Data…** appe
 
 On iPhone and iPad, open **Overview ▸ ellipsis ▸ Manage Data…** (under **Data**), then **Backups**. On Mac, use the **File** menu or **Data** toolbar menu.
 
-- **Create Backup** on iPhone and iPad, or **File ▸ Back Up…** on Mac, saves a portable JSON copy of categories, assignments, transfers, transactions, income and repeating-transaction rules to a location you choose.
+- **Create Backup** on iPhone and iPad, or **File ▸ Back Up…** on Mac, saves a portable JSON copy of categories, goals and their targets, assignments, transfers, transactions, income and repeating-transaction rules to a location you choose.
 **Restore a Backup** is a two-step process:
 
 1. Select **Choose Backup** on iPhone or iPad, or **File ▸ Restore from Backup…** on Mac, to open a saved backup. Catora validates it and shows its filename and record counts.
@@ -109,7 +110,7 @@ date,type,payee_or_source,category,amount,note
 2. Review invalid rows, categories needing a choice and possible duplicates. Possible duplicates are excluded unless you explicitly include them.
 3. Resolve the review choices and approve the rows to append. Catora saves approved rows together after validation. Cancelling or a failed validation or save leaves your existing budget unchanged.
 
-CSV includes transaction and income values only. It does not preserve monthly assignments, budget transfers, repeating rules, category order or archive state, or app settings. Use a JSON backup for a complete restorable budget copy.
+CSV includes transaction and income values only. It does not preserve goals or their targets and target months, monthly assignments, budget transfers, repeating rules, category order or archive state, or app settings. Use a JSON backup for a complete restorable budget copy.
 
 CSV files may contain sensitive financial information. Catora reads or writes only files you select and does not upload their contents to a developer server. Keep exported files secure; they remain at your chosen location or storage provider until you delete them.
 
@@ -198,6 +199,16 @@ Select **New Income** and enter:
 - **Note** — optional extra detail.
 
 Tap an existing entry on iPhone or iPad, or double-click its row on Mac, to edit or delete it. Deleting income updates the budget totals and cannot be undone.
+
+## Goals
+
+Goals lets you set savings targets using ordinary category balances. Tap **Add Goal** on iPhone or iPad, or click it on Mac, then enter a name and positive target amount. You can optionally set a target month; Catora uses the month and ignores the day you select. Creating a goal does not move any money into it.
+
+Each active goal shows its available balance for the selected budget month, progress toward its target, and the amount still needed. With a target month, it also shows a suggested amount per month, rounded up to the nearest cent. This is a guide, not an automatic assignment or transfer. If the target month has passed and money is still needed, Catora shows that the target date has passed.
+
+Select **Add Money** on an active goal to move money from Ready to Assign or an eligible category into the goal. The transfer changes budget balances, not your real bank balance. Tap or click a goal to change its name, target amount or target month.
+
+Archive a goal to stop using it. Archiving returns its unused balance to Ready to Assign while retaining its history; a negative balance or pending repeating payment can prevent archiving. Archived goals appear below active goals and can be unarchived. A goal with no money or activity can be permanently deleted.
 
 ## If Catora cannot open its saved budget
 
