@@ -2,11 +2,11 @@
 
 **Simple Monthly Budgeting**
 
-**Last updated:** 5 October 2026
+**Last updated:** 13 October 2026
 
 Thank you for using **Catora**.
 
-Catora is a personal budgeting app for iPhone, iPad and Mac. It helps you assign and move money between categories, record income and spending, manage repeating transactions, review spending trends, and understand how much remains available.
+Catora is a personal budgeting app for iPhone, iPad and Mac. It helps you assign and move money between categories, set savings goals, record income and spending, manage repeating transactions, review spending trends, and understand how much remains available.
 
 ## Getting Help
 
@@ -35,13 +35,21 @@ On iPhone or iPad, use **Choose Backup** in **Backups** to select and review a p
 
 Restoring replaces the active budget after confirmation. Catora validates the selected file first and keeps the previous active budget as a local automatic recovery snapshot.
 
+JSON backups include goals, their targets and target months, and the balances held in their categories.
+
+## Goals
+
+Open **Goals** from the tab bar or sidebar and choose **Add Goal** to set a name, positive target amount and optional target month. **Add Money** moves money from Ready to Assign or another eligible category into an active goal. The goal's progress uses its available category balance for the selected budget month; the suggested monthly amount is guidance and does not move money automatically.
+
+Tap or click a goal to edit or archive it. Archiving returns unused goal money to Ready to Assign and keeps its history. You can unarchive it later. Only a goal with no money or activity can be permanently deleted. See the [User Guide](guide.html) for more detail.
+
 ## CSV Import and Export
 
 On iPhone or iPad, open **Overview ▸ ellipsis ▸ Manage Data…** (under **Data**), then **CSV Import & Export**. On Mac, use **File ▸ Import CSV…** or **File ▸ Export CSV…**.
 
 CSV exchanges transactions and income with spreadsheet software. Import reviews the selected file before appending approved rows; it does not replace your budget. Resolve invalid rows and category choices before importing. Possible duplicates are excluded unless you explicitly include them. Cancelling or a failed validation or save leaves the existing budget unchanged.
 
-CSV does not preserve monthly assignments, transfers, repeating rules, category order or archive state, or app settings. Use a JSON backup for a complete restorable budget copy. CSV files can contain sensitive financial details: Catora reads or writes only selected files and does not upload them to a developer server. Keep exports secure.
+CSV does not preserve goals or their targets and target months, monthly assignments, transfers, repeating rules, category order or archive state, or app settings. Use a JSON backup for a complete restorable budget copy. CSV files can contain sensitive financial details: Catora reads or writes only selected files and does not upload them to a developer server. Keep exports secure.
 
 The [User Guide](guide.html) explains the CSV format and review steps.
 
