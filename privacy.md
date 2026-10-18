@@ -1,6 +1,6 @@
 # Catora Privacy Policy
 
-**Last updated:** 13 October 2026
+**Last updated:** 18 October 2026
 
 This Privacy Policy explains how **Catora — Simple Monthly Budgeting** handles your information.
 
@@ -8,7 +8,7 @@ This Privacy Policy explains how **Catora — Simple Monthly Budgeting** handles
 
 Catora is designed to keep your budgeting information on your device. It does not automatically sync the active budget between devices; you can transfer a saved JSON backup yourself.
 
-Information you enter into the app may include:
+Information you enter or that Catora saves locally may include:
 
 - Budget categories, monthly assignments and transfers between categories
 - Savings goals, target amounts and optional target months
@@ -16,7 +16,7 @@ Information you enter into the app may include:
 - Income
 - Repeating transactions
 - Payees, income sources and notes associated with your financial records
-- App appearance and preference settings
+- App appearance and other preferences, including beginner-help settings and which first-use tips and tab guides you have seen
 
 This information is used only to provide the budgeting features of the app.
 
@@ -33,6 +33,8 @@ The app does not use your information for marketing or advertising purposes.
 Catora stores its active budget in the app's local storage. To help recover safely from interrupted changes or an unreadable file, Catora keeps local automatic recovery snapshots, including a previous local copy, and may preserve an unreadable local file.
 
 Reset replaces the active budget with either an empty starter budget or sample data and removes Catora's local automatic recovery versions. If recovery-copy cleanup cannot be completed, the app warns you. Backup and CSV files saved separately remain until you delete them from their saved location or storage provider.
+
+The welcome screen appears again after a complete budget reset, and tab-guide history is cleared. Appearance and App Lock settings remain on the device. First-use button-tip history can be cleared from **Learning Help**.
 
 ## Backups
 
@@ -78,9 +80,9 @@ The app does not connect to your bank account.
 
 ## Children's Privacy
 
-Catora is not designed to knowingly collect personal information from children.
+Catora includes optional beginner help and visual themes that younger people may use. Catora stores budget entries and learning preferences locally and does not automatically send them to the developer, including when a younger person uses the app.
 
-Because the app's budgeting information is stored locally and is not collected by the developer, the developer does not knowingly maintain personal information about children.
+If a child or anyone else emails support, the developer receives the information they choose to send. Please avoid including sensitive financial information in support messages.
 
 ## Changes to This Privacy Policy
 

@@ -2,17 +2,19 @@
 
 **Simple Monthly Budgeting for iPhone, iPad and Mac**
 
-**Last updated:** 13 October 2026
+**Last updated:** 18 October 2026
 
 Catora is a personal budgeting and record-keeping app. It helps you record income, assign that money to categories, enter spending, plan future months, set savings goals, manage repeating payments and review spending trends. It does not connect to a bank or move real money.
 
+On the first run, the welcome screen lets you choose beginner-friendly text and an appearance. It also links to an in-app **Category Budgeting Guide** that explains the basic idea using everyday examples.
+
 ## A simple way to get started
 
-1. Open **Income** and add a paycheck, deposit or other money received.
-2. Open **Categories** and assign the available money to the things you plan to spend it on.
-3. Open **Transactions** whenever you spend money.
-4. Check **Overview** to see what remains, spot overspending and review upcoming repeating payments.
-5. Open **Goals** to set a savings target and move money toward it.
+1. Open **Income** (**Money In** with beginner help) and add pay, pocket money, a gift or other money received.
+2. Open **Categories** (**Spending Plans**) and assign the available money to the things you plan to spend it on.
+3. Open **Transactions** (**Spending**) whenever you spend money.
+4. Check **Overview** (**My Money**) to see what remains, spot overspending and review upcoming repeating payments.
+5. Open **Goals** (**Savings Goals**) to set a savings target and move money toward it.
 6. Create a JSON backup after important changes using the backup controls described below.
 
 ## Moving around Catora
@@ -52,10 +54,11 @@ Select the **Spending Trends** card to open a larger chart.
 
 ### Overview actions and settings
 
-On iPhone and iPad, open the **Overview** ellipsis menu. **Manage Data…** appears under **Data**. On Mac, the **File** menu contains backup, restore, earlier-version, CSV and reset commands; the **Data** toolbar menu also provides backup, restore, earlier-version and CSV commands. Use **Catora ▸ Settings…** for appearance and App Lock, **Catora ▸ About Catora** for app information, and the **Help** menu for the user guide, support and privacy policy.
+On iPhone and iPad, open the **Overview** ellipsis menu. **Manage Data…** appears under **Data**. On Mac, the **File** menu contains backup, restore, earlier-version, CSV and reset commands; the **Data** toolbar menu also provides backup, restore, earlier-version and CSV commands. Use **Catora ▸ Settings…** for appearance, learning help and App Lock, **Catora ▸ About Catora** for app information, and the **Help** menu for the user guide, support and privacy policy.
 
 - **Require Device Authentication** turns App Lock on or off. Apple system authentication may use Face ID, Touch ID or the device passcode on iPhone and iPad, or available Touch ID or your Mac login password on macOS. Catora receives only whether authentication succeeded or failed.
 - **Appearance** changes the color theme and heading style.
+- **Learning Help** lets you use simpler labels and short field tips, turn first-use button explanations on or off, replay button tips and tab guides, and open the in-app Category Budgeting Guide. On iPhone or iPad, find it under **Overview ▸ Overview Actions**; on Mac, use the **Learning** tab in Settings.
 - **Privacy & About** shows the app version and build, privacy information, support links and important data-handling notes.
 
 ### Backups
@@ -79,6 +82,7 @@ On iPhone and iPad, choose **Reset…** from the **Overview** ellipsis menu. On 
 - **Start Fresh** replaces the active budget with Catora's normal starter categories and no money assigned.
 - **Start Again with Sample Data** replaces it with a small example budget to explore.
 - Appearance and App Lock settings remain unchanged.
+- The welcome screen returns after a complete reset, and tab guides are available again. Use **Learning Help** to replay first-use button tips.
 - Reset removes Catora's local automatic recovery versions. The app warns if cleanup cannot be completed. Separately saved backups and CSV files remain until you delete them from their saved location.
 
 ## CSV Import and Export

@@ -2,7 +2,7 @@
 
 **Simple Monthly Budgeting**
 
-**Last updated:** 13 October 2026
+**Last updated:** 18 October 2026
 
 Thank you for using **Catora**.
 
@@ -23,7 +23,15 @@ When reporting a problem, it can help to include:
 - What you expected to happen
 - What actually happened
 
-Please do not send sensitive financial information unless it is necessary to explain the problem.
+Please hide account details and other sensitive financial information in screenshots or example files before sending them.
+
+## Getting Started and Learning Help
+
+On your first run, the welcome screen explains Catora, lets you choose **Beginner-friendly text**, and offers **Pink & Lilac**, **Red and Blue**, or **System Default** appearance. It also links to the in-app **Category Budgeting Guide**. You can change the appearance and learning settings later.
+
+Beginner help uses simpler labels and short field tips without changing how the budget works. Tab guides introduce each area once. When beginner help and first-use help boxes are on, key buttons explain themselves before their first use.
+
+On iPhone or iPad, open **Overview ▸ Overview Actions ▸ Learning Help**. On Mac, open **Catora ▸ Settings… ▸ Learning**. There you can turn beginner help and first-use help boxes on or off, open the Category Budgeting Guide, or choose **Show help and tab guides again**. Turning first-use help boxes off and back on also makes the button tips and tab guides available again.
 
 ## Backing Up Your Budget
 
@@ -39,7 +47,7 @@ JSON backups include goals, their targets and target months, and the balances he
 
 ## Goals
 
-Open **Goals** from the tab bar or sidebar and choose **Add Goal** to set a name, positive target amount and optional target month. **Add Money** moves money from Ready to Assign or another eligible category into an active goal. The goal's progress uses its available category balance for the selected budget month; the suggested monthly amount is guidance and does not move money automatically.
+Open **Goals** (**Savings Goals** with beginner help) from the tab bar or sidebar and choose **Add Goal** (**Add Savings Goal**) to set a name, positive target amount and optional target month. **Add Money** (**Save Money**) moves money from Ready to Assign or another eligible category into an active goal. The goal's progress uses its available category balance for the selected budget month; the suggested monthly amount is guidance and does not move money automatically.
 
 Tap or click a goal to edit or archive it. Archiving returns unused goal money to Ready to Assign and keeps its history. You can unarchive it later. Only a goal with no money or activity can be permanently deleted. See the [User Guide](guide.html) for more detail.
 
@@ -59,6 +67,8 @@ Open **Reset…** from the **Overview** ellipsis menu on iPhone or iPad, or **Fi
 
 The app asks for confirmation before replacing the active budget. Reset removes Catora's local automatic recovery versions; the app warns if cleanup cannot be completed. Separately saved backups and CSV exports remain until you delete them from their saved location.
 
+After a complete reset, the welcome screen appears again and the tab guides can be shown again. Appearance and App Lock settings remain unchanged. Use **Learning Help** to replay first-use button tips.
+
 ## Currency
 
 Catora uses the currency and number formatting associated with your device's regional settings.
@@ -73,7 +83,7 @@ Authentication is handled by the operating system. Catora receives only whether 
 
 ## Help and Information
 
-On Mac, the **Help** menu opens the hosted user guide, support page and privacy policy. **Catora ▸ About Catora** shows app information, and **Catora ▸ Settings…** manages appearance and App Lock.
+On Mac, the **Help** menu opens the hosted user guide, support page and privacy policy. **Catora ▸ About Catora** shows app information, and **Catora ▸ Settings…** manages appearance, learning help and App Lock.
 
 - Read the [Catora User Guide](guide.html) for a complete explanation of every tab and tool.
 - Read the [Catora Privacy Policy](privacy.html).
