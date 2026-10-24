@@ -1,12 +1,12 @@
 # Catora Privacy Policy
 
-**Last updated:** 18 October 2026
+**Last updated:** 24 October 2026
 
 This Privacy Policy explains how **Catora — Simple Monthly Budgeting** handles your information.
 
 ## Your Budget Data
 
-Catora is designed to keep your budgeting information on your device. It does not automatically sync the active budget between devices; you can transfer a saved JSON backup yourself.
+Catora saves your budget on your device. If you choose to turn on iCloud Sync, Catora also saves a copy in the private iCloud database for your Apple Account so your signed-in devices can use the same budget. Sync is off until you set it up and review the starting budget.
 
 Information you enter or that Catora saves locally may include:
 
@@ -18,7 +18,15 @@ Information you enter or that Catora saves locally may include:
 - Payees, income sources and notes associated with your financial records
 - App appearance and other preferences, including beginner-help settings and which first-use tips and tab guides you have seen
 
-This information is used only to provide the budgeting features of the app.
+This information is used to provide the budgeting features of the app. With iCloud Sync on, budget data is sent through Apple's CloudKit service. Catora does not send your budget to a developer-operated server.
+
+## Optional iCloud Sync
+
+You can use Catora without iCloud Sync. On iPhone or iPad, open **Overview ▸ ellipsis ▸ Manage Data… ▸ iCloud Sync**. On Mac, open **Catora ▸ Settings… ▸ iCloud**. Setup asks you to review the budget on the device and any budget already in iCloud. Choosing this device as the shared starting budget can replace the iCloud budget used by your other synced devices. Catora keeps a separate copy before replacement.
+
+After setup, Catora sends budget changes to your private iCloud database and checks for changes from your other devices. Your local budget remains available offline. Changes made offline are sent when a connection is available. Apple Account access, network conditions and Apple's service affect delivery time. If changes conflict, Catora keeps both versions and asks you to choose. A restore or reset needs another online review and confirmation before it replaces the shared budget on synced devices. Older offline edits after a shared replacement are saved as recovery copies rather than added back to the new budget.
+
+Turning sync off on a device keeps its local budget and does not delete the iCloud budget. If you sign out of or change your Apple Account, Catora stops publishing to the old account and asks you to set up sync again. App Lock, appearance and learning preferences stay on each device; they do not sync. You can export preserved sync recovery copies from **iCloud Sync** and review them with **Backups**. These copies may contain financial details, so keep exported files secure.
 
 ## Data Collection
 
@@ -32,7 +40,7 @@ The app does not use your information for marketing or advertising purposes.
 
 Catora stores its active budget in the app's local storage. To help recover safely from interrupted changes or an unreadable file, Catora keeps local automatic recovery snapshots, including a previous local copy, and may preserve an unreadable local file.
 
-Reset replaces the active budget with either an empty starter budget or sample data and removes Catora's local automatic recovery versions. If recovery-copy cleanup cannot be completed, the app warns you. Backup and CSV files saved separately remain until you delete them from their saved location or storage provider.
+Reset replaces the active budget with either an empty budget with no categories or transactions, or sample data, and removes Catora's local automatic recovery versions. If recovery-copy cleanup cannot be completed, the app warns you. Backup and CSV files saved separately remain until you delete them from their saved location or storage provider. Sync recovery copies are kept separately and can be exported from iCloud Sync.
 
 The welcome screen appears again after a complete budget reset, and tab-guide history is cleared. Appearance and App Lock settings remain on the device. First-use button-tip history can be cleared from **Learning Help**.
 
@@ -44,7 +52,7 @@ A portable backup is only exported or shared when you choose to do so. You contr
 
 The developer does not automatically receive copies of your backups.
 
-To restore on iPhone or iPad, use **Choose Backup** in **Backups**. On Mac, choose **File ▸ Restore from Backup…**. The app reads only the file you select, lets you review its contents, and restores it only after you confirm **Restore Backup**.
+To restore on iPhone or iPad, use **Choose Backup** in **Backups**. On Mac, choose **File ▸ Restore from Backup…**. The app reads only the file you select, lets you review its contents, and restores it only after you confirm **Restore Backup**. With sync on, replacing the shared iCloud budget needs a further online review and confirmation.
 
 You are responsible for keeping any backup files you create secure.
 
@@ -68,7 +76,7 @@ The app only receives confirmation that authentication succeeded or failed.
 
 Opening Catora's privacy, support or user-guide links opens hosted web pages. Those requests are handled by GitHub Pages and your browser according to their own privacy practices; Catora does not include your budget data in them. If you contact support by email, the developer receives the information you choose to send. Avoid sending sensitive financial details.
 
-The core budgeting features of Catora do not require your financial information to be uploaded to an online account or server.
+Core budgeting works without an online account. If you enable iCloud Sync, your budget is stored through Apple's CloudKit service in your Apple Account's private database. Apple's iCloud terms and privacy practices apply to that storage and transfer.
 
 ## Financial Information
 
@@ -80,7 +88,7 @@ The app does not connect to your bank account.
 
 ## Children's Privacy
 
-Catora includes optional beginner help and visual themes that younger people may use. Catora stores budget entries and learning preferences locally and does not automatically send them to the developer, including when a younger person uses the app.
+Catora includes optional beginner help and visual themes that younger people may use. Budget entries stay on the device unless iCloud Sync is turned on; learning preferences stay on the device. Catora does not automatically send this information to the developer, including when a younger person uses the app.
 
 If a child or anyone else emails support, the developer receives the information they choose to send. Please avoid including sensitive financial information in support messages.
 
