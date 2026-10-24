@@ -22,7 +22,7 @@ This information is used to provide the budgeting features of the app. With iClo
 
 ## Optional iCloud Sync
 
-iCloud Sync is off unless you choose to turn it on. With sync off, your budget stays on this device and Catora's main budgeting features still work.
+iCloud Sync is optional and starts turned off. Catora keeps your budget on this device either way. It uploads a copy to iCloud only if you choose to set up sync.
 
 ### Turning sync on
 
