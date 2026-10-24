@@ -22,11 +22,23 @@ This information is used to provide the budgeting features of the app. With iClo
 
 ## Optional iCloud Sync
 
-You can use Catora without iCloud Sync. On iPhone or iPad, open **Overview ▸ ellipsis ▸ Manage Data… ▸ iCloud Sync**. On Mac, open **Catora ▸ Settings… ▸ iCloud**. Setup asks you to review the budget on the device and any budget already in iCloud. Choosing this device as the shared starting budget can replace the iCloud budget used by your other synced devices. Catora keeps a separate copy before replacement.
+iCloud Sync is off unless you choose to turn it on. With sync off, your budget stays on this device and Catora's main budgeting features still work.
 
-After setup, Catora sends budget changes to your private iCloud database and checks for changes from your other devices. Your local budget remains available offline. Changes made offline are sent when a connection is available. Apple Account access, network conditions and Apple's service affect delivery time. If changes conflict, Catora keeps both versions and asks you to choose. A restore or reset needs another online review and confirmation before it replaces the shared budget on synced devices. Older offline edits after a shared replacement are saved as recovery copies rather than added back to the new budget.
+### Turning sync on
 
-Turning sync off on a device keeps its local budget and does not delete the iCloud budget. If you sign out of or change your Apple Account, Catora stops publishing to the old account and asks you to set up sync again. App Lock, appearance and learning preferences stay on each device; they do not sync. You can export preserved sync recovery copies from **iCloud Sync** and review them with **Backups**. These copies may contain financial details, so keep exported files secure.
+If you want the same budget on devices signed into your Apple Account, open **Overview ▸ ellipsis ▸ Manage Data… ▸ iCloud Sync** on iPhone or iPad, or **Catora ▸ Settings… ▸ iCloud** on Mac. Catora asks you to review the budget on this device and any budget already in iCloud. If you choose this device's budget, it can replace the shared budget on your other synced devices. Catora saves a separate copy before replacing it.
+
+### While sync is on
+
+Catora keeps a budget copy on your device and sends changes to your Apple Account's private iCloud database. You can still use Catora offline. Changes made offline sync when a connection is available; timing depends on your connection and Apple's service. If two devices make conflicting changes, Catora keeps both versions and asks you to choose.
+
+Restoring a backup or resetting your budget requires another online review before it changes the shared budget. After a shared replacement, older offline edits on another device are saved as recovery copies instead of being added to the new budget.
+
+### Turning sync off
+
+Turning sync off on a device keeps its local budget and does not delete the iCloud budget. If you sign out of or change your Apple Account, Catora stops sending changes to the old account and asks you to set up sync again. App Lock, appearance and learning preferences stay on each device; they do not sync.
+
+You can export saved sync recovery copies from **iCloud Sync** and review them with **Backups**. These copies may contain financial details, so keep exported files secure.
 
 ## Data Collection
 
