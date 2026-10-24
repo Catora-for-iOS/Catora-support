@@ -2,7 +2,7 @@
 
 **Simple Monthly Budgeting**
 
-**Last updated:** 18 October 2026
+**Last updated:** 24 October 2026
 
 Thank you for using **Catora**.
 
@@ -33,6 +33,16 @@ Beginner help uses simpler labels and short field tips without changing how the 
 
 On iPhone or iPad, open **Overview ▸ Overview Actions ▸ Learning Help**. On Mac, open **Catora ▸ Settings… ▸ Learning**. There you can turn beginner help and first-use help boxes on or off, open the Category Budgeting Guide, or choose **Show help and tab guides again**. Turning first-use help boxes off and back on also makes the button tips and tab guides available again.
 
+## iCloud Sync
+
+To use the same budget on your iPhone, iPad and Mac, you can turn on **iCloud Sync**. On iPhone or iPad, open **Overview ▸ ellipsis ▸ Manage Data… ▸ iCloud Sync**. On Mac, open **Catora ▸ Settings… ▸ iCloud**. Sign in to iCloud, select **Set Up iCloud Sync**, and review the choices. If your device and iCloud have different budgets, choose carefully: **Use This Device on All Devices** replaces the shared starting budget. Catora keeps a separate copy before replacement.
+
+You can use your budget offline. Your changes stay on that device until it connects and syncs. Sync can take time depending on iCloud and your connection. Open **iCloud Sync** to see its status or select **Sync Now**. If it says **Needs Review**, follow the on-screen choices to settle a conflict. Both versions are kept until you choose.
+
+**Turn Off on This Device** keeps the budget on the device and in iCloud. It stops updates on that device. Your theme, learning settings and App Lock stay on each device and do not sync. Keep a separate JSON backup too: syncing also copies mistakes and deletions.
+
+If sync reports a missing shared budget, an Apple Account change, or a problem with cloud data, follow the message in iCloud Sync. Catora does not silently replace your local budget. You can export preserved sync recovery copies from that screen, then review them in **Backups**. For more help, email support without attaching a budget file unless you choose to share it.
+
 ## Backing Up Your Budget
 
 On iPhone or iPad, open the **Overview** ellipsis menu, choose **Manage Data…** under **Data**, then **Backups ▸ Create Backup**. On Mac, use **File ▸ Back Up…**. Save the JSON backup to a file location you choose.
@@ -42,6 +52,8 @@ Keep important backup files somewhere safe.
 On iPhone or iPad, use **Choose Backup** in **Backups** to select and review a previously saved file. On Mac, use **File ▸ Restore from Backup…**. Review the selected file, then confirm **Restore Backup** to use it.
 
 Restoring replaces the active budget after confirmation. Catora validates the selected file first and keeps the previous active budget as a local automatic recovery snapshot.
+
+With iCloud Sync on, a restore also needs an online review and confirmation before it replaces the shared budget on your other devices.
 
 JSON backups include goals, their targets and target months, and the balances held in their categories.
 
@@ -63,9 +75,11 @@ The [User Guide](guide.html) explains the CSV format and review steps.
 
 ## Starting Again
 
-Open **Reset…** from the **Overview** ellipsis menu on iPhone or iPad, or **File ▸ Reset Budget…** on Mac. Reset offers two ways to begin again: **Start Fresh** creates the normal starter categories with no money assigned, while **Start Again with Sample Data** creates a small example budget.
+Open **Reset…** from the **Overview** ellipsis menu on iPhone or iPad, or **File ▸ Reset Budget…** on Mac. Reset offers two ways to begin again: **Start Fresh** creates an empty budget with no categories or transactions, while **Start Again with Sample Data** creates a small example budget.
 
 The app asks for confirmation before replacing the active budget. Reset removes Catora's local automatic recovery versions; the app warns if cleanup cannot be completed. Separately saved backups and CSV exports remain until you delete them from their saved location.
+
+With iCloud Sync on, reset also needs an online review and confirmation before the new budget replaces the shared one. Older offline changes on other devices are saved separately rather than added back to the new budget.
 
 After a complete reset, the welcome screen appears again and the tab guides can be shown again. Appearance and App Lock settings remain unchanged. Use **Learning Help** to replay first-use button tips.
 
