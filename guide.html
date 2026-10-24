@@ -74,7 +74,7 @@ footer { margin-top: 42px; font-size: 0.9rem; color: #6b7280; }
 
 <h1>Catora User Guide</h1>
 <p><strong>Simple Monthly Budgeting for iPhone, iPad and Mac</strong></p>
-<p><strong>Last updated:</strong> 18 October 2026</p>
+<p><strong>Last updated:</strong> 24 October 2026</p>
 <p>Catora is a personal budgeting and record-keeping app. It helps you record income, assign that money to categories, enter spending, plan future months, set savings goals, manage repeating payments and review spending trends. It does not connect to a bank or move real money.</p>
 <p>On the first run, the welcome screen lets you choose beginner-friendly text and an appearance. It also links to an in-app <strong>Category Budgeting Guide</strong> that explains the basic idea using everyday examples.</p>
 <h2>A simple way to get started</h2>
@@ -89,7 +89,12 @@ footer { margin-top: 42px; font-size: 0.9rem; color: #6b7280; }
 <h2>Moving around Catora</h2>
 <p>Catora has five main areas: <strong>Overview</strong>, <strong>Transactions</strong>, <strong>Categories</strong>, <strong>Income</strong> and <strong>Goals</strong>. iPhone shows them in a tab bar. iPad and Mac use a sidebar when there is enough space. On Mac, Command-1 through Command-5 also switch between them.</p>
 <p>The month control appears near the top of Overview, Transactions, Categories and Income. Use its arrows to move backward or forward by one month. The selected month is shared across the app, including the balances shown in Goals.</p>
-<p>Catora does not automatically sync the active budget between devices. To transfer a budget yourself, create a JSON backup and restore it on the other device after reviewing the replacement.</p>
+<p>Catora saves a copy of your budget on each device. You can also turn on <strong>iCloud Sync</strong> to use the same budget on devices signed into your Apple Account. You can still use a JSON backup to move a budget yourself.</p>
+<h2>iCloud Sync</h2>
+<p>iCloud Sync is optional. On iPhone or iPad, open <strong>Overview ▸ ellipsis ▸ Manage Data… ▸ iCloud Sync</strong>. On Mac, open <strong>Catora ▸ Settings… ▸ iCloud</strong>. Sign in to iCloud on the device, choose <strong>Set Up iCloud Sync</strong>, and review the budgets before choosing which one to use. If there is already a different budget in iCloud, choosing <strong>Use This Device on All Devices</strong> replaces the shared starting budget. Catora keeps a separate copy before replacement.</p>
+<p>After setup, edits sync between your signed-in devices when iCloud is available. You can keep using Catora offline; changes stay on the device and sync when it reconnects. Sync timing depends on your connection and Apple&#x27;s service. <strong>Sync Now</strong> asks Catora to check immediately. If two devices change the same information, Catora shows both versions and asks you to choose. Look for <strong>Needs Review</strong> in iCloud Sync if updates stop.</p>
+<p><strong>Turn Off on This Device</strong> stops syncing that device. It keeps the budget on that device and the shared budget in iCloud. App Lock, appearance and learning settings stay on each device; they do not sync.</p>
+<p>A restore or reset can replace the shared budget on all synced devices. Catora asks you to review and confirm this online. It keeps recovery copies for sync conflicts and replacements; open <strong>iCloud Sync</strong> to export one, then use <strong>Backups</strong> to review and restore it. A JSON backup is still useful because sync also carries changes or mistakes between devices.</p>
 <p>Currency symbols and number formatting follow the device&#x27;s region settings. Changing region changes how saved amounts are displayed; it does not convert them into another currency.</p>
 <h2>Overview</h2>
 <p>Overview is the dashboard for the selected month.</p>
@@ -129,16 +134,18 @@ footer { margin-top: 42px; font-size: 0.9rem; color: #6b7280; }
 <li>Select <strong>Choose Backup</strong> on iPhone or iPad, or <strong>File ▸ Restore from Backup…</strong> on Mac, to open a saved backup. Catora validates it and shows its filename and record counts.</li>
 <li>Review the selected file, then confirm <strong>Restore Backup</strong>. Only then does it replace the active budget. The previous active budget is kept as a local automatic recovery snapshot.</li>
 </ol>
+<p>If iCloud Sync is on, Catora also asks for an online review before the restored budget replaces the shared budget on your other devices. Keep the device online to complete that step.</p>
 <p>On Mac, <strong>File ▸ Earlier Versions…</strong> lets you inspect and restore local automatic recovery versions after confirmation. Automatic snapshots and the previous local copy help recover changes; they are stored on this device and are not a substitute for a separately saved backup.</p>
 <p>Keep separately saved backup files secure. They remain in their saved location until you delete them there.</p>
 <h3>Reset</h3>
 <p>On iPhone and iPad, choose <strong>Reset…</strong> from the <strong>Overview</strong> ellipsis menu. On Mac, choose <strong>File ▸ Reset Budget…</strong>. Reset is destructive and asks for confirmation.</p>
 <ul>
-<li><strong>Start Fresh</strong> replaces the active budget with Catora&#x27;s normal starter categories and no money assigned.</li>
+<li><strong>Start Fresh</strong> replaces the active budget with an empty budget with no categories or transactions.</li>
 <li><strong>Start Again with Sample Data</strong> replaces it with a small example budget to explore.</li>
 <li>Appearance and App Lock settings remain unchanged.</li>
 <li>The welcome screen returns after a complete reset, and tab guides are available again. Use <strong>Learning Help</strong> to replay first-use button tips.</li>
 <li>Reset removes Catora&#x27;s local automatic recovery versions. The app warns if cleanup cannot be completed. Separately saved backups and CSV files remain until you delete them from their saved location.</li>
+<li>If iCloud Sync is on, review and confirm the shared replacement online. Older offline edits on another device are saved separately instead of being added back to the new budget.</li>
 </ul>
 <h2>CSV Import and Export</h2>
 <p>On iPhone and iPad, open <strong>Overview ▸ ellipsis ▸ Manage Data…</strong> (under <strong>Data</strong>), then <strong>CSV Import &amp; Export</strong>. On Mac, use <strong>File ▸ Import CSV…</strong> or <strong>File ▸ Export CSV…</strong> (also available in the <strong>Data</strong> toolbar menu).</p>
@@ -244,7 +251,7 @@ footer { margin-top: 42px; font-size: 0.9rem; color: #6b7280; }
 <h2>If Catora cannot open its saved budget</h2>
 <p>Catora preserves the existing files and shows <strong>Budget Recovery</strong> instead of silently replacing them. You can choose a valid backup to restore or explicitly start fresh. When restoring over an unreadable budget, the unreadable file is preserved separately.</p>
 <h2>Privacy and support</h2>
-<p>Catora keeps its active financial data and automatic recovery copies in the app&#x27;s local storage and does not send that data to a developer server. JSON backups and CSV exports go only to the location you choose. Keep them secure and delete them separately when no longer needed.</p>
+<p>Catora keeps its active financial data and automatic recovery copies on your device. With iCloud Sync on, it also stores the budget in your Apple Account&#x27;s private iCloud database. The developer does not receive your budget on a developer server. JSON backups and CSV exports go to the location you choose. Keep them secure and delete them separately when no longer needed.</p>
 <ul>
 <li>Read the <a href="privacy.html">Privacy Policy</a>.</li>
 <li>Visit <a href="support.html">Catora Support</a> or email <strong>Catora.support@gmail.com</strong>.</li>
